@@ -142,7 +142,7 @@ int main(void)
 	          // Read from ADC2 and assign to channels[4] to channels[7]
 //	          readJoystickChannels(&hadc2, 4);
 	  SBUS_Transmit(&huart2, channels);
-	  	  	  	  HAL_Delay(70);
+	  	  	  	  HAL_Delay(11);
 //        if (adc_val==0)
 //        	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_RESET);
 //        else
