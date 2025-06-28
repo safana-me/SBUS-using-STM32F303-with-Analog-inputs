@@ -18,10 +18,6 @@ This project demonstrates SBUS signal generation on an STM32 microcontroller bas
 - **Communication**: UART
 - **Language**: C (HAL-based)
 
-## 📦 Project Structure
-
-- `AnalogRead1/`: Basic SBUS frame generation using one ADC input.
-- `AnalogRead2/`: Enhanced version using dynamic ADC reading and mapping function for multiple joystick channels.
 
 ## 📡 SBUS Protocol Notes
 
@@ -30,9 +26,10 @@ This project demonstrates SBUS signal generation on an STM32 microcontroller bas
 - 1 start byte (`0x0F`), 22 data bytes, 1 flag byte, 1 end byte (`0x00`)
 - Requires inverted UART TX line
 
-## 📷 Demo
-
-> (You can add images, waveform screenshots or logic analyzer output here.)
+## Configuration Settings
+UART - baudrate-10000, parity- Even, 8E2
+Enable UART Tx inverted
+Enable ADC channels
 
 ## 🧠 Credits
 
